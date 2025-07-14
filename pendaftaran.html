@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  h1, h2, h3, p {
+    font-size: 90%;
+  }
+  nav, footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Santri Baru - Pondok Pesantren Fathul Hidayah As-Sab'ah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <header class="page-header">
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  h1, h2, h3, p {
+    font-size: 90%;
+  }
+  nav, footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="container">
+            <div class="top-bar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Logo Pondok" class="pondok-logo"> <span>Pondok Pesantren <br> Fathul Hidayah As-Sab'ah</span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="nav-item">Beranda</a></li>
+                        <li><a href="profil.html" class="nav-item">Profil</a></li>
+                        <li><a href="program.html" class="nav-item">Program</a></li>
+                        <li><a href="galeri.html" class="nav-item">Galeri</a></li>
+                        <li><a href="pendaftaran.html" class="nav-item active">Pendaftaran</a></li>
+                        <li><a href="kontak.html" class="nav-item">Kontak</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="page-title-content">
+                <h1>Pendaftaran Santri Baru</h1>
+                <p>Jadilah bagian dari keluarga besar Pondok Pesantren Fathul Hidayah As-Sab'ah.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="registration-section section-padding">
+            <div class="container">
+                <p class="section-description">
+                    Kami membuka pintu bagi calon santri putra yang bersemangat untuk menuntut ilmu agama dan mendalami tradisi salaf. Isi formulir di bawah ini atau pelajari informasi pendaftaran singkat kami.
+                </p>
+
+                <div class="registration-content">
+                    <div class="registration-info fade-in">
+                        <h3>Informasi Penting Pendaftaran Santri</h3>
+                        <ul>
+                            <li>
+                                <strong>Waktu Pendaftaran:</strong><br>
+                                Pendaftaran dapat dilakukan kapan saja sepanjang tahun. Kami menyambut calon santri baru di setiap waktu yang Anda pilih.
+                            </li>
+                            <li>
+                                <strong>Syarat Calon Santri:</strong><br>
+                                <ul>
+                                    <li>Mampu bersungguh-sungguh dalam menuntut ilmu.</li>
+                                    <li>Berakhlak mulia dan siap mengikuti serta mematuhi tata tertib pesantren.</li>
+                                </ul>
+                                <!-- <p style="margin-top: 10px;">Untuk persyaratan berkas, silakan hubungi kami secara langsung.</p> -->
+                            </li>
+                            <li>
+                                <strong>Alur Pendaftaran:</strong><br>
+                                Anda memiliki pilihan untuk mendaftar secara langsung di sekretariat pondok atau melalui jalur pendaftaran online yang tersedia di halaman ini.
+                            </li>
+                            <li>
+                                <strong>Biaya Pendidikan dan Operasional:</strong><br>
+                                <ul>
+                                    <li>Biaya Listrik Bulanan: Rp 30.000,-</li>
+                                    <li>Biaya Kas Mingguan: Rp 3.000,-</li>
+                                    <li>Biaya Kitab: Informasi lebih lanjut akan disampaikan kemudian.</li>
+                                </ul>
+                                <p style="margin-top: 10px;">Kami juga sangat mengapresiasi dan menerima segala bentuk sedekah atau infak dari para dermawan untuk kemajuan pondok.</p>
+                            </li>
+                        </ul>
+                        <p style="margin-top: 20px;">Untuk pertanyaan lebih lanjut atau klarifikasi, silakan hubungi kami melalui halaman <a href="kontak.html">Kontak</a>.</p>
+                    </div>
+
+                    <div class="registration-form-wrapper fade-in">
+                        <h3>Formulir Pendaftaran Online</h3>
+                        <form action="proses_pendaftaran.php" method="POST">
+                            <div class="form-group">
+                                <label for="nama_lengkap">Nama Lengkap Calon Santri:</label>
+                                <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Contoh: Muhammad Yusuf Al-Fatih" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="tempat_lahir">Tempat Lahir:</label>
+                                <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="asal_sekolah">Asal Sekolah:</label>
+                                <input type="text" id="asal_sekolah" name="asal_sekolah" placeholder="Contoh: SD IT Cahaya Ilmu" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nama_wali">Nama Orang Tua / Wali:</label>
+                                <input type="text" id="nama_wali" name="nama_wali" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="no_hp_wali">Nomor HP Orang Tua / Wali:</label>
+                                <input type="tel" id="no_hp_wali" name="no_hp_wali" placeholder="Contoh: 081234567890" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email_wali">Email Orang Tua / Wali (Opsional):</label>
+                                <input type="email" id="email_wali" name="email_wali" placeholder="contoh@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="alamat">Alamat Lengkap:</label>
+                                <textarea id="alamat" name="alamat" rows="4" placeholder="Jl. Contoh No. RT/RW, Desa/Kelurahan, Kecamatan, Kota/Kab, Provinsi, Kode Pos" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="pesan">Pesan/Catatan Tambahan (Opsional):</label>
+                                <textarea id="pesan" name="pesan" rows="3"></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Daftar Sekarang</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-dark">
+        <div class="container">
+            <p>&copy; 2025 Pondok Pesantren Fathul Hidayah As-Sab'ah. Hak Cipta Dilindungi.</p>
+            <p>Alamat: Jl. Sultan Hasanuddin, Kp. Pisangan Simpang 4, Ds. Sarakan, Kec. Sepatan, Kab. Tangerang, Prov. Banten, Kode POS 15520</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const faders = document.querySelectorAll('.fade-in');
+
+            const appearOptions = {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    } else {
+                        entry.target.classList.add('appear');
+                        appearOnScroll.unobserve(entry.target);
+                    }
+                });
+            }, appearOptions);
+
+            faders.forEach(fader => {
+                appearOnScroll.observe(fader);
+            });
+        });
+    </script>
+
+</div>
+</body>
+</html>
